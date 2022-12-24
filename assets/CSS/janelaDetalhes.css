@@ -1,0 +1,102 @@
+.pokedexWindowArea {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    justify-content: center;
+    align-items: center;
+    overflow-y:auto;
+    text-transform: capitalize;
+    transition: all ease .5s;
+}
+.pokedexWindowBody {
+    width: 300px;
+    height: 550px;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 15px #999;
+    margin: 20px 0px;
+    padding: 20px;
+    color: #FFF;
+    
+}
+#arrow_back {
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+.infosBasic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.windowName {
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.windowTypes {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.windowType {
+    
+    font-size: 13px;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+    display: inline;
+    padding: .25rem .6rem;
+}
+.windowOrder {
+    font-size: 0.7rem;
+}
+.windowInfoDetails {
+    background-color: white;
+    height: 281px;
+    width: 300px;
+    position: absolute;
+    border-radius: 1.5rem;
+    margin-top: 269px;
+    padding: 2.2rem 1rem;
+}
+.aboutTitle{
+    border-bottom: 2px solid #b5b7c6;
+    padding-bottom: 10px;
+    display: inline;
+    font-size: 15px;
+    
+}
+.aboutBody {
+    margin-top: 30px;
+}
+.aboutBody-Abilities, .aboutBody-experience, .aboutBody-cycle {
+    display: flex;
+    font-size: 13px;
+    margin-top: 1rem;
+}
+.aboutBody-Abilities-title, .aboutBody-experience-title, .aboutBody-cycle-title {
+    color: #868686;
+    width: 120px;
+    
+}
+.aboutBody-Abilities-body,.aboutBody-experience-body, .aboutBody-cycle-body {
+    font-weight: bold;
+}
+.windowImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.windowImage img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -300px;
+}
